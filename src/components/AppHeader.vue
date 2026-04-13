@@ -135,6 +135,7 @@ onUnmounted(() => {
                 </button>
                 <div class="flex gap-x-10 max-lg:hidden items-center">
                     <div class="flex gap-x-4">
+                        <a href="@gostevoi_dom_delfine989" target="_blank"></a>
                         <div class="bg-[#0084c6] duration-200 cursor-pointer rounded-lg flex p-2 
                             transition-all 
                             hover:bg-[#006a9e]
@@ -143,14 +144,16 @@ onUnmounted(() => {
                             active:shadow-[inset_0_8px_16px_rgba(0,0,0,0.5)]">
                             <IconTelegramm />
                         </div>
-                        <div class="bg-[#01e675] duration-200 cursor-pointer rounded-lg flex p-2 
-                            transition-all 
-                            hover:bg-[#70d850]
-                            hover:shadow-[inset_0_4px_10px_rgba(0,0,0,0.35)]
-                            active:scale-95 
-                            active:shadow-[inset_0_8px_16px_rgba(0,0,0,0.5)]">
-                            <IconWhatsapp />
-                        </div>
+                        <a href="https://wa.me/message/5VZS6ZUKG5SSE1" target="_blank">
+                            <div class="bg-[#01e675] duration-200 cursor-pointer rounded-lg flex p-2 
+                                transition-all 
+                                hover:bg-[#70d850]
+                                hover:shadow-[inset_0_4px_10px_rgba(0,0,0,0.35)]
+                                active:scale-95 
+                                active:shadow-[inset_0_8px_16px_rgba(0,0,0,0.5)]">
+                                <IconWhatsapp />
+                            </div>
+                        </a>
                     </div>
                     <div @click="isOpen = !isOpen"
                         class="px-4 max-sm:px-2 max-sm:py-1.5 py-3 border border-[#ffdf7b] hover:border-[#ffde7ba4] hover:bg-[#ffde7ba4] duration-200 cursor-pointer">
