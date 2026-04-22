@@ -56,7 +56,7 @@ const isOpenLink = ref(false)
     <div class="relative w-full h-104 lg:h-96 group">
         <div class="absolute left-0 top-4">
             <h3
-                class=" z-2 pl-4  py-2 pr-4 relative text-black before:-right-1 after:-bottom-1.25 after:absolute after:w-1.5 after:-right-1.5 after:h-3.25 bg-white after:bg-white before:-top-1 box-border before:w-1.5 before:bg-white before:absolute before:h-12 before:-rotate-8 inline-block border-y-5  font-semibold border-white">
+                class=" z-2 pl-4  py-2 pr-4 relative text-white before:-right-1 after:-bottom-1.25 after:absolute after:w-1.5 after:-right-1.5 after:h-3.25 bg-[#e5c667] after:bg-[#e5c667] before:-top-1 box-border before:w-1.5 before:bg-[#e5c667] before:absolute before:h-12 before:-rotate-8 inline-block border-y-5  font-semibold border-[#e5c667]">
                 {{ title }}
             </h3>
         </div>

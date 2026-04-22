@@ -12,12 +12,19 @@ import ModalForm from './components/ui/ModalForm.vue'
 import IconWhatsapp from './components/icons/IconWhatsapp.vue'
 import IconTelegramm from './components/icons/IconTelegramm.vue'
 import { ref } from 'vue'
+import IconEyes from './components/icons/IconEyes.vue'
 
 // import BaseReview from './components/BaseReview.vue'
 const isOpen = ref(false)
+const isOpenView = ref(false)
 </script>
 
 <template>
+  <div v-show="isOpenView" @click="isOpenView = false"
+    class="w-screen h-screen fixed left-0 top-0 z-100 bg-[#00000074]">
+    <img src="/certificate.png"
+      class=" max-h-[calc(75%)] z-101 fixed left-1/2 max-sm:bottom-10 bottom-20 transform -translate-x-1/2">
+  </div>
   <ModalForm v-model:isOpen="isOpen" />
   <div class="">
     <AppHeader v-model:isOpen="isOpen"></AppHeader>
@@ -93,6 +100,14 @@ const isOpen = ref(false)
                     Скачать сертификат
                   </span>
                 </a>
+                <div @click="isOpenView = !isOpenView" class="flex gap-x-2 items-center cursor-pointer">
+                  <div class="h-10 w-10 flex justify-center items-center ">
+                    <IconEyes class="text-[#e5c667]" />
+                  </div>
+                  <span class="hover:text-[#616161] duration-200 text-base inline-block w-max">
+                    Смотреть сертификат
+                  </span>
+                </div>
               </div>
             </div>
           </div>

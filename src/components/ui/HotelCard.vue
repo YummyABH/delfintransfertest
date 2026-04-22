@@ -24,7 +24,7 @@ defineProps({
             class="max-w-screen max-h-screen z-101 fixed left-1/2 top-1/2 transform -translate-1/2">
     </div>
     <div
-        class="group bg-white rounded-3xl overflow-hidden flex-1 flex flex-col shadow-lg hover:shadow-2xl transition-all duration-300 border border-zinc-100 max-w-md mx-auto">
+        class="group bg-white rounded-3xl overflow-hidden flex-1 flex flex-col shadow-lg hover:shadow-2xl transition-all duration-300 border border-zinc-100 max-w-lg mx-auto">
 
         <!-- Слайдер / Изображение -->
         <div class="relative overflow-hidden">
@@ -59,18 +59,71 @@ defineProps({
         <div class="p-6 max-lg:p-3 max-sm:px-1 flex-1 flex-col justify-between flex">
             <!-- Преимущества -->
             <ul class="space-y-4 sm:space-y-3 mb-6">
-                <li v-if="list.title" class="flex font-semibold justify-self-center items-start gap-3 text-gray-700">
-                    {{ list.title }}
+                <li class="flex font-semibold justify-self-center items-start gap-3 text-gray-700">
+                    Гостевой дом «Дельфин» —<br>
+                    Ваш тихий уголок в Агудзере
                 </li>
-                <li v-for="(item, index) in list.advantages" :key="index"
-                    class=" items-start sm:flex gap-3 text-gray-700">
-                    <div class="mt-0.5 max-sm:pr-2 max-sm:inline-block max-sm:float-left text-[#e5c667]">
-                        <IconDaw class="w-5 h-5" />
-                    </div>
-                    <span class="text-[15px] leading-relaxed">{{ item }}</span>
+                <li class=" items-start sm:flex gap-3 text-gray-700">
+                    <span class="text-[15px] leading-relaxed">Всего в 7–8 минутах от моря, через тенистый парк имени
+                        Смецкого, вас ждёт место, где отдых становится по-настоящему полным.</span>
                 </li>
-                <li v-if="list.adres" class="text-gray-700 font-base">{{ list.adres }}</li>
-                <li v-if="list.subtitle" class="text-gray-700 italic font-light">{{ list.subtitle }}</li>
+                <li class=" items-start sm:flex gap-3 text-gray-700">
+                    <span class="text-[15px] leading-relaxed">4 уютных дома для комфортной жизни</span>
+                </li>
+                <li class=" items-start sm:flex gap-3 text-gray-700">
+                    <span class="text-[15px] leading-relaxed">В каждом доме:</span>
+                </li>
+                <div class="">
+                    <li class=" items-start sm:flex gap-3 text-gray-700">
+                        <span class="text-[15px] leading-relaxed">• качественная мебель</span>
+                    </li>
+                    <li class=" items-start sm:flex gap-3 text-gray-700">
+                        <span class="text-[15px] leading-relaxed">• современные ортопедические матрасы для здорового
+                            сна</span>
+                    </li>
+                    <li class=" items-start sm:flex gap-3 text-gray-700">
+                        <span class="text-[15px] leading-relaxed">• бытовая техника — всё под рукой</span>
+                    </li>
+                    <li class=" items-start sm:flex gap-3 text-gray-700">
+                        <span class="text-[15px] leading-relaxed">• детские кроватки для самых юных гостей
+                            (предоставляются по запросу)</span>
+                    </li>
+                </div>
+                <li class=" items-start sm:flex gap-3 text-gray-700">
+                    <span class="text-[15px] leading-relaxed">Общее пространство для вашего удобства:</span>
+                </li>
+                <div class="">
+                    <li class=" items-start sm:flex gap-3 text-gray-700">
+                        <span class="text-[15px] leading-relaxed">• Просторная общая кухня — есть плита, посуда и всё
+                            необходимое, чтобы готовить с удовольствием.</span>
+                    </li>
+                    <li class=" items-start sm:flex gap-3 text-gray-700">
+                        <span class="text-[15px] leading-relaxed">• Мангальная зона — для вечеров с шашлыками и душевных
+                            разговоров.</span>
+                    </li>
+                </div>
+                <li class=" items-start sm:flex gap-3 text-gray-700">
+                    <span class="text-[15px] leading-relaxed">Особое внимание — каждому гостю.</span>
+                </li>
+                <li class=" items-start sm:flex gap-3 text-gray-700">
+                    <span class="text-[15px] leading-relaxed">Наш дружелюбный лабрадор Рокки уже готов познакомиться и
+                        подарить вам свою любовь.<br>
+                        Он — живая душа «Дельфина», и дети, и взрослые уезжают отсюда с тёплыми воспоминаниями о
+                        нём.</span>
+                </li>
+                <li class=" items-start sm:flex gap-3 text-gray-700">
+                    <span class="text-[15px] leading-relaxed">Локация</span>
+                </li>
+                <li class=" items-start sm:flex gap-3 text-gray-700">
+                    <span class="text-[15px] leading-relaxed">Агудзера, Гулрыпшский район. Тишина, близость к природе и
+                        лёгкий доступ к морю через живописный парк.</span>
+                </li>
+                <li class="text-gray-700 font-base">Агудзера, Гулрыпшский район. Тишина, близость к природе и
+                    лёгкий доступ к морю через живописный парк.</li>
+                <li class="text-gray-700 italic font-light">Приезжайте в «Дельфин».<br>
+                    Мы встречаем не как гостей,<br>
+                    а как старых друзей.<br>
+                    Уверены: вы будете приятно удивлены радушием, чистотой и настоящим домашним комфортом.</li>
             </ul>
             <!-- Цена -->
             <div class="">
@@ -83,8 +136,7 @@ defineProps({
                 <!-- Кнопка -->
                 <button @click="isOpen = !isOpen"
                     class="text-[15px] w-full cursor-pointer bg-[#ddb642] hover:bg-[#e5c667] active:bg-[#baa35e] transition-colors text-white font-semibold py-4 rounded-2xl text-base shadow-sm flex items-center justify-center gap-2">
-                    <IconCicle />
-                    Позвонить
+                    Забронировать
                 </button>
             </div>
         </div>
