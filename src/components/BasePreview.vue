@@ -49,6 +49,15 @@ const isOpenLink = ref(false)
         </div>
     </div>
     <div class="w-full lg:h-auto h-200 max-lg:h-200 overflow-y-hidden relative overflow-hidden" id="transfer">
+        <div class="max-lg:hidden absolute bottom-0 right-20 max-xl:right-10 flex max-w-[35%]">
+            <div class="text-[15px] rounded-lg bg-white h-min px-2 py-1 max-w-100">
+                <span class="font-semibold">Здравствуйте, друзья!</span><br />
+                <span class="font-light">Меня зовут Алиас, я основатель компании и уже более <span
+                        class="font-semibold">10 лет</span> создаю для путешественников незабываемые впечатления от
+                    Абхазии.</span>
+            </div>
+            <img class="w-60" src="/alias.png" alt="">
+        </div>
         <div class="w-full overflow-hidden">
             <!-- <video class="absolute overflow-hidden inset-0 w-full h-full object-cover z-[-1]" autoplay loop muted
                 playsinline>
@@ -60,17 +69,17 @@ const isOpenLink = ref(false)
 
 
         <div class="lg:hidden absolute top-34 left-1/2 -translate-x-1/2 ">
-            <div class="text-center text-[15px] px-4 py-3 w-max max-w-screen  text-white bg-[#e5c667]">
+            <div class="text-center mx-2 text-[17px] font-semibold w-max max-w-screen  text-white">
                 <div class="w-max max-w-full">
-                    Встреча - без
-                    опозданий.
-                    Граница -
-                    без
-                    хаоса.
+                    ВСТРЕЧА - БЕЗ
+                    ОПОЗДАНИЙ.
+                    ГРАНИЦА -
+                    БЕЗ
+                    ХАОСА.
                 </div>
                 <div class="w-max justify-self-center">
-                    Цена - без
-                    сюрпризов
+                    ЦЕНА - БЕЗ
+                    СЮРПРИЗОВ
                 </div>
             </div>
         </div>
@@ -78,7 +87,7 @@ const isOpenLink = ref(false)
         <div
             class="lg:hidden text-[15px] max-sm:px-0 max-sm:py-5  max-w-140 px-10 py-10 rounded-2xl mx-auto max-lg:translate-y-1/2 max-sm:translate-y-3/5  text-white backdrop-blur-md">
             <h1 class="text-center max-sm:text-xl text-2xl  text-white mb-10">ЛИЦЕНЗИРОВАННЫЙ ТРАНСФЕР<br>
-                РЕСПУБЛИКИ АБХАЗИЯ.
+                РЕСПУБЛИКИ АБХАЗИЯ
             </h1>
             <div class="flex gap-x-4 border-y max-sm:px-5 max-sm:text-sm px-10 text-lg py-3 ">
                 <IconDaw class="mb-0.75" />
@@ -117,20 +126,19 @@ const isOpenLink = ref(false)
                 <div
                     class="border-x-3 backdrop-blur-md justify-self-start bg-white/1 text-white pb-20 pt-10  border-[#cdad4b]">
                     <div class="mb-2 flex justify-self-center w-max">
-                        <h2 class="px-4 py-3  bg-[#e5c667] mb-2 text-center text-white text-xl max-[350px]:text-lg ">Из
-                            Сочи
-                            в Абхазию -
-                            с
-                            комфортом</h2>
+                        <h2 class="text-xl  font-bold mb-2 text-center text-white  max-[350px]:text-lg ">Из
+                            СОЧИ
+                            В АБХАЗИЮ -
+                            С
+                            КОМФОРТОМ</h2>
                     </div>
-                    <div
-                        class="mb-6 text-center text-[15px] px-4 py-3 w-max justify-self-center  text-white bg-[#e5c667]">
-                        <div class="w-max max-w-full">
-                            Встреча - без
-                            опозданий.
-                            Граница -
-                            без
-                            хаоса.
+                    <div class="mb-6 text-center text-[15px]  w-max justify-self-center  text-white">
+                        <div class="text-[17px] w-max max-w-full">
+                            ВСТРЕЧА - БЕЗ
+                            ОПОЗДАНИЙ.
+                            ГРАНИЦА -
+                            БЕЗ
+                            ХАОСА.
                         </div>
                         <div class="w-max justify-self-center">
                             Цена - без
@@ -138,7 +146,7 @@ const isOpenLink = ref(false)
                         </div>
                     </div>
                     <h1 class="px-0 text-center text-3xl mt-0 text-white mb-6">ЛИЦЕНЗИРОВАННЫЙ ТРАНСФЕР<br>
-                        РЕСПУБЛИКИ АБХАЗИЯ.
+                        РЕСПУБЛИКИ АБХАЗИЯ
                     </h1>
                     <div class=" flex gap-x-6 border-y px-10 text-xl py-4">
                         <IconDaw class="mb-0.75" />

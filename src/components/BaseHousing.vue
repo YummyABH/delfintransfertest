@@ -56,6 +56,16 @@ const hotelInfo = [
             </h2>
         </div>
         <ContentContainer>
+            <div
+                class="text-xl max-md:text-base  font-light mb-25 max-w-200 mx-auto relative before:w-20 before:absolute before:h-20 before:-bottom-5 before:-right-5 before:border-b-[#e5c667] before:border-b before:border-r before:border-r-[#e5c667] after:w-20 after:absolute after:h-20 max-md:before:-right-2 max-md:before:-bottom-2 max-md:after:-left-2 max-md:after:-top-2 after:-left-5 after:-top-5 after:border-l-[#e5c667] after:border-l after:border-t-[#e5c667] after:border-t ">
+                <span class="text-xl font-semibold text-center block"> Жильё в Абхазии без сюрпризов</span><br>
+                <span class="text-[15px] ">Мы подберём и забронируем проверенный гостевой дом или отель — от эконом до
+                    премиум. Никаких «а на фото было лучше»: только те объекты, где мы сами были или куда готовы
+                    поселить родных.</span><br>
+                <span class="text-[15px]">Заселим за 1–2 дня. Поможем, даже если вы уже в дороге.</span><br><br>
+                <span class="text-[15px] block">Подбор — бесплатно. </span>
+                <span class="text-[15px] block">Стоимость номеров = прайс на сайте. </span>
+            </div>
             <!-- <div
                 class="text-xl max-md:max-w- max-md:text-base font-light mb-25 max-w-200 mx-auto relative before:w-20 before:absolute before:h-20 before:-bottom-5 before:-right-5 before:border-b-[#e5c667] before:border-b before:border-r before:border-r-[#e5c667] after:w-20 after:absolute after:h-20 max-md:before:-right-2 max-md:before:-bottom-2 max-md:after:-left-2 max-md:after:-top-2 after:-left-5 after:-top-5 after:border-l-[#e5c667] after:border-l after:border-t-[#e5c667] after:border-t">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga quia provident.

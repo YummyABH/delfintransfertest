@@ -123,10 +123,10 @@ onUnmounted(() => {
                     </ul>
                 </div>
                 <div class="lg:hidden flex justify-self-center w-max">
-                    <h2 class="px-4 py-3  bg-[#e5c667] mb-2 text-center text-white text-xl max-[350px]:text-lg ">Из Сочи
-                        в Абхазию<br> -
-                        с
-                        комфортом</h2>
+                    <h2 class=" mb-2 text-center text-white font-bold text-xl max-[350px]:text-lg ">ИЗ СОЧИ
+                        В АБХАЗИЮ<br> -
+                        С
+                        КОМФОРТОМ</h2>
                 </div>
                 <button @click="isActive = !isActive"
                     class="group relative flex h-11 w-11 items-center justify-center rounded-xl bg-white/10 backdrop-blur-md transition-all duration-300 hover:bg-white/20 focus:outline-none lg:hidden">

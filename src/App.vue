@@ -30,6 +30,17 @@ const isOpenView = ref(false)
     <AppHeader v-model:isOpen="isOpen"></AppHeader>
     <main>
       <BasePreview v-model:isOpen="isOpen" />
+      <ContentContainer>
+        <div class="lg:hidden items-end flex max-w-200 mx-auto text-center pt-20">
+          <div class="text-[15px] max-sm:text-[14px] rounded-lg text-start border bg-white h-min px-4 py-3 ">
+            <span class="font-semibold">Здравствуйте, друзья!</span><br />
+            <span class="font-light">Меня зовут Алиас, я основатель компании и уже более <span class="font-semibold">10
+                лет</span> создаю для путешественников незабываемые впечатления от
+              Абхазии.</span>
+          </div>
+          <img class="bottom-0 w-60 max-sm:max-w-30 max-sm:h-full" src="/alias.png" alt="">
+        </div>
+      </ContentContainer>
       <BaseCars v-model:isOpen="isOpen" />
       <BaseVipCars v-model:isOpen="isOpen" />
       <BaseTour v-model:isOpen="isOpen" />
